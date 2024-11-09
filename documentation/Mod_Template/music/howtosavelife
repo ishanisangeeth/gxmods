@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        .song {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .song img {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        .song-info {
+            display: flex;
+            align-items: center;
+        }
+        .song-details {
+            margin-left: 15px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Music Collection</h1>
+        <p>A curated selection of my favorite songs and albums</p>
+    </header>
+
+    <section class="song">
+        <div class="song-info">
+            <img src="album-cover.jpg" alt="Album Cover">
+            <div class="song-details">
+                <h2>Song Title: How to Save a Life</h2>
+                <p>Artist: The Fray</p>
+                <p>Album: How to Save a Life (2005)</p>
+            </div>
+        </div>
+        <audio controls>
+            <source src="how-to-save-a-life.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Add more song sections as needed -->
+    
+</body>
+</html>
